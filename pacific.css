@@ -1,0 +1,112 @@
+/********************
+Pacific Trails Resort CSS Project Styling File 
+Date: September 27 2022
+Author: Chris Olah
+Copyright Chris Olah 2022
+********************/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+body {
+    background: #00569f url(ptrbackground.jpg) left top repeat-x;
+    color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 10px 70px 10px;
+}
+
+nav {
+    width: 190px;
+    float: left;
+}
+
+nav ul {
+    font-size: 1.2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000032;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+h1 {
+    margin: 0;
+	padding: 10px;
+}
+
+h2 {
+    color: #3399CC;
+    padding: 20px 0;
+    margin: 0;
+    
+}
+
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+img {
+    float: left;
+    margin-right: 30px;
+}
+
+header {
+    background: #000032 url(sunset.jpg) right no-repeat;
+    color: #ffffff;
+}
+
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    margin-left: 190px;
+    padding: 20px;
+    background-color: #ffffff;
+    font-style: italic;
+    font-size: 0.75em;
+    
+}
+
+dt {
+	color: #000033;
+}
+
+.resort {
+    font-weight: bold;
+    color: #5b7f9f;
+}
+
+#wrapper {
+    width: 80%;
+    min-width: 600px;
+    background-color: #90c8e3;
+    margin: 0 auto;
+}
+
+#content {
+    margin-left: 190px;
+    background-color: #ffffff;
+    padding: 0 20px 15px 30px;
+}
+
+#content > ul {
+    list-style: inside url('marker.gif');
+    padding: 0;
+    margin: 20px 0 20px 40px;
+}
+
+#contact {
+    font-size: 90%;
+}
